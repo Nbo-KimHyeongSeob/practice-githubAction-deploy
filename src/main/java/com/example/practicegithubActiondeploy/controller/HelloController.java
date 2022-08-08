@@ -11,7 +11,12 @@ public class HelloController {
         return "We are pair 47!";
     }
     @GetMapping("/new")
-    public String hi(){
+    public String start(){
         return "New !!";
+    }
+
+    @GetMapping("/hi")
+    public String hi(){
+        return "hi !!";
     }
 }
