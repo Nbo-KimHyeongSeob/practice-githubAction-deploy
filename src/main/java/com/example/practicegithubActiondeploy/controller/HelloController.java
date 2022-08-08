@@ -10,4 +10,8 @@ public class HelloController {
     public String hello(){
         return "We are pair 47!";
     }
+    @GetMapping("/new")
+    public String hi(){
+        return "New !!";
+    }
 }
