@@ -10,9 +10,9 @@ public class HelloController {
     public String hello(){
         return "We are pair 47!";
     }
-    @GetMapping("/new")
+    @GetMapping("/hi")
     public String start(){
-        return "New !!";
+        return "hi !!";
     }
 
 }
